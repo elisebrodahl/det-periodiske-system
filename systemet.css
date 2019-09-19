@@ -1,0 +1,63 @@
+h1{
+  text-align: center;
+  color: black;
+  font-size: 60px;
+  margin-left: 80px;
+}
+
+Body{
+  margin: 0px;
+  font-family: helvetica;
+}
+nav{
+  background-color: #b1bec9;
+  display: flex;
+}
+
+nav a{
+  color: white; /
+  text-decoration: none;
+  padding: 20px;
+}
+
+nav .active{
+  background-color: #0d47a1;
+}
+nav a:hover:not(.active){
+  background-color: #82b1ff
+
+}
+.blå{
+
+  background-color: #6da0cf;
+}
+.gul{
+
+  background-color: yellow;
+}
+.systemet{
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+  grid-gap: 5px;
+}
+.span-6{
+  grid-column: span 16;
+}
+.span-4{
+  grid-column: span 10;
+  border-radius: 0.5px;
+}
+.grunnstoff{
+  border-style: solid;
+}
+]
+.usynlig{
+  opacity: 0;
+}
+
+.tall,.navn{
+  text-align: center;
+}
+.tall{
+  font-size: 24px;
+}
